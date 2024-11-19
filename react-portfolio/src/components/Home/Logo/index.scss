@@ -1,0 +1,23 @@
+.logo-container {
+    z-index: 0;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    top: -50%;  /* Adjust this percentage to change the vertical positioning */
+    right: 15%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    
+    .solid-logo {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        transform: rotateZ(30deg);
+        z-index: 1;
+    }
+}
