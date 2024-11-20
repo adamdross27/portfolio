@@ -4,6 +4,7 @@ import './index.scss'
 import { useState, useEffect } from 'react'; 
 import { faJava, faJsSquare, faNodeJs, faReact, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { Loader } from 'react-loaders'
 
 const About = () => {
 
@@ -16,6 +17,7 @@ const About = () => {
     }, [])
     
     return (
+        <>
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
@@ -62,6 +64,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Loader type="pacman" />
+        </>
     )
 }
 
