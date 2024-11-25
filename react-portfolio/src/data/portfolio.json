@@ -2,51 +2,27 @@
     "portfolio": [
         {
             "cover": "/portfolio/1/chelsea.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
+            "title": "Chelsea FC",
+            "description": "My favourite football team!",
+            "url": "https://www.chelseafc.com/en"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
+            "cover": "/portfolio/2/premierleague.png",
+            "title": "Premier League",
+            "description": "The league that Chelsea play in.",
+            "url": "https://www.premierleague.com"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
+            "cover": "/portfolio/3/aut.png",
+            "title": "Auckland University of Technology",
+            "description": "The university that I graduated from!",
+            "url": "https://www.aut.ac.nz"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "https://google.com"
+            "cover": "/portfolio/4/hlg.jpeg",
+            "title": "Hallenstein Glassons",
+            "description": "The company I work at as an IT Service Desk Technician.",
+            "url": "https://www.hallensteinglasson.co.nz"
         }
-    ]
+       ]
 }
