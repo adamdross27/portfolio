@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/chelsea.png",
+            "cover": "public/portfolio/1/chelsea.png",
             "title": "Chelsea FC",
             "description": "My favourite football team!",
             "url": "https://www.chelseafc.com/en"
