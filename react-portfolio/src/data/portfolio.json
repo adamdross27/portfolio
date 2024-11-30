@@ -3,24 +3,28 @@
         {
             "cover": "/portfolio/1/chelsea.png",
             "title": "Chelsea FC",
+            "subtitle": "Stack used: ",
             "description": "My favourite football team!",
             "url": "https://www.chelseafc.com/en"
         },
         {
-            "cover": "/portfolio/2/premierleague.png",
-            "title": "Premier League",
-            "description": "The league that Chelsea play in.",
-            "url": "https://www.premierleague.com"
+            "cover": "/portfolio/2/speed.png",
+            "title": "SPEED Project",
+            "subtitle": "MongoDB, Next.js, Nest.js, & Node.js",
+            "description": "Software Practice Empirical Evidence Database (SPEED) uses the MNNN stack to help software engineering students find and evaluate empirical evidence on software engineering practices through a searchable NoSQL database, along with functionalities for submitting, moderating, analysing, and searching articles.",
+            "url": "https://speedfrontend.vercel.app/"
         },
         {
             "cover": "/portfolio/3/aut.png",
-            "title": "Auckland University of Technology",
+            "title": "AUT",
+            "subtitle": "Stack used: ",
             "description": "The university that I graduated from!",
             "url": "https://www.aut.ac.nz"
         },
         {
             "cover": "/portfolio/4/hlg.jpeg",
             "title": "Hallenstein Glassons",
+            "subtitle": "Stack used: ",
             "description": "The company I work at as an IT Service Desk Technician.",
             "url": "https://www.hallensteinglasson.co.nz"
         }

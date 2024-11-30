@@ -17,7 +17,7 @@
     position: absolute;
     bottom: 0;
     left: 120px;
-    font-size: 18px;
+    font-size: 24px;
     font-family: 'La Belle Aurore';
 }
 
@@ -40,6 +40,7 @@
     animation-delay: 1s;
 }
 
+
 .about-page,
 .contact-page,
 .portfolio-page {
@@ -57,7 +58,7 @@
             &::before {
                 content: '<h1>';
                 font-family: 'La Belle Aurore';
-                font-size: 18px;
+                font-size: 24px;
                 position: absolute;
                 margin-top: -10px;
                 left: -10px;
