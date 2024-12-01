@@ -1,11 +1,11 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/chelsea.png",
-            "title": "Chelsea FC",
-            "subtitle": "Stack used: ",
-            "description": "My favourite football team!",
-            "url": "https://www.chelseafc.com/en"
+            "cover": "/portfolio/1/caitoicon.png",
+            "title": "CAITO WIS",
+            "subtitle": "Firebase, Express, React, Node",
+            "description": "The CAITO Workforce Intelligence System is a full-stack application that uses the FERN stack to help government officials make informed data-driven decisions through the assistance of generative AI.",
+            "url": "https://adamdross27.github.io/caito/"
         },
         {
             "cover": "/portfolio/2/speed.png",
