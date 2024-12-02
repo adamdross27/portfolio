@@ -1,5 +1,5 @@
 import './App.scss';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
@@ -11,10 +11,11 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="portfolio" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="projects" element={<Portfolio />} />
+          <Route path="/portfolio" element={<Navigate to="/portfolio/home" replace />} />
+          <Route path="/portfolio/home" element={<Home />} />
+          <Route path="/portfolio/about" element={<About />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
+          <Route path="/portfolio/projects" element={<Portfolio />} />
         </Route>
       </Routes>
     </>

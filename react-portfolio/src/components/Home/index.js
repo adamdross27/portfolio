@@ -43,7 +43,7 @@ const Home = () => {
                     />
                 </h1>
                 <h2> Full-Stack Developer <br /></h2>
-                <Link to="/contact" className="flat-button">CONTACT ME</Link>
+                <Link to="/portfolio/contact" className="flat-button">CONTACT ME</Link>
             </div>
             <Logo />
         </div>

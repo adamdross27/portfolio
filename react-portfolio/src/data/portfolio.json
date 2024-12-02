@@ -22,11 +22,11 @@
             "url": "https://www.aut.ac.nz"
         },
         {
-            "cover": "/portfolio/4/hlg.jpeg",
-            "title": "Hallenstein Glassons",
-            "subtitle": "Stack used: ",
-            "description": "The company I work at as an IT Service Desk Technician.",
-            "url": "https://www.hallensteinglasson.co.nz"
+            "cover": "/portfolio/4/calculator2.png",
+            "title": "Simple Calculator",
+            "subtitle": "JavaScript, HTML, CSS ",
+            "description": "This is a simple calculator that uses HTML, CSS, and JavaScript to allow the user to use addition, subtraction, multiplication, and division functions to solve mathematical problems.",
+            "url": "https://adamdross27.github.io/calculator/"
         }
        ]
 }

@@ -46,7 +46,7 @@
             bottom: 0;
             max-height: fit-content; // Adapts to the size of title and subtitle
             overflow: hidden;
-            transform: translateY(70px); // Slide out of view initially
+            transform: translateY(80px); // Slide out of view initially
         }
 
         .title {
