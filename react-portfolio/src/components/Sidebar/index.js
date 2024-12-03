@@ -14,16 +14,16 @@ const Sidebar = () => (
             <img className="sub-logo" src={LogoSubTtile} alt='logosub' />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" className="home-link" to="portfolio/home">
+            <NavLink exact="true" activeclassname="active" className="home-link" to="/portfolio/home">
                 <FontAwesomeIcon icon={faHome} color="#4d4d43" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="portfolio/about">
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/portfolio/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d43" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="portfolio/contact">
+            <NavLink exact="true" activeclassname="active" className="contact-link" to="/portfolio/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d43" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="portfolio-link" to="portfolio/projects">
+            <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/portfolio/projects">
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d43" />
             </NavLink>
         </nav>
