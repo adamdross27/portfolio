@@ -15,11 +15,11 @@
             "url": "https://speedfrontend.vercel.app/"
         },
         {
-            "cover": "/portfolio/3/aut.png",
-            "title": "AUT",
-            "subtitle": "Stack used: ",
-            "description": "The university that I graduated from!",
-            "url": "https://www.aut.ac.nz"
+            "cover": "/portfolio/3/todo.png",
+            "title": "To-Do List",
+            "subtitle": "JavaScript, HTML, CSS ",
+            "description": "This is a simple to-do list app that allows people to add, tick, and delete items from the list that uses local storage to allow the page to be closed or refreshed while keeping its data.",
+            "url": "https://adamdross27.github.io/todo-app/"
         },
         {
             "cover": "/portfolio/4/calculator2.png",
