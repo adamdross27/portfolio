@@ -15,6 +15,8 @@ const About = () => {
             setLetterClass('text-animate-hover');
         }, 3000);
     }, [])
+
+    //To add animated text to the <h2>s
     
     return (
         <>

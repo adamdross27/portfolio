@@ -16,7 +16,7 @@
         },
         {
             "cover": "/portfolio/3/todo.png",
-            "title": "To-Do App",
+            "title": "To-Do App", 
             "subtitle": "JavaScript, HTML, CSS ",
             "description": "This is a simple To-Do App that allows users to add, tick, and delete tasks. It utilises local memory storage allowing for users to close the tab or refresh while the app remembers their items on their to-do list!",
             "url": "https://adamdross27.github.io/todo-app/"
