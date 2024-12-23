@@ -1,9 +1,29 @@
 @import "~loaders.css/src/animations/pacman.scss";
 
+.about-page {
+    width: 100%;
+    height: calc(100vh - 150px);  /* Adjust the height to move the scroll line higher */
+    position: relative;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.text-zone p {
+    margin-bottom: 20px;  /* Reduce the space after paragraphs */
+    font-size: 12px;
+}
+
+.text-zone h2 {
+    margin-top: 5px;  /* Reduce the space before headings */
+    font-size: 20px;
+    font-family: 'Coolvetica';
+    color: #ffd700
+}
+
+
 .stage-cube-cont {
     width: 50%;
-    height: 100%;
-    top: 0;
+    height: 100%;  /* Full height for the cube container */
     padding-top: 18%;
     margin-left: 0;
     position: absolute;

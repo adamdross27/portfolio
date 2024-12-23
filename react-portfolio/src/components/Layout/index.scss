@@ -8,13 +8,13 @@
 
 .top-tags {
     bottom: auto;
-    top: 35px;
+    top: 38px;
 }
 
 .tags {
     color: #ffd700;
     opacity: 0.6;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 120px;
     font-size: 24px;
@@ -23,6 +23,18 @@
 
 .bottom-tag-html {
     margin-left: -20px;
+}
+
+.top-tag-html {
+    margin-left: -20px;
+    position: fixed;
+    top: 5px;
+    left: 120px;
+    color: #ffd700;
+    font-size: 24px;
+    font-family: 'La Belle Aurore';
+    opacity: 0.6; /* Set opacity to full visibility */
+    
 }
 
 .container {

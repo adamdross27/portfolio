@@ -27,17 +27,42 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
+                <h2>Education</h2>
                 <p>
-                    CAITO Workforce Intelligence System: Data visualisation tool with AI implementation to provide TVET sector of
-                    Philippines actionable data analysis and insights. Firebase, Express, React, and Node (FERN stack).
+                    I have graduated from Auckland University of Technology with a <i>Bachelor of Computer and Information Sciences</i>,
+                     majoring in Software Development, and minoring in Networks & Cybersecurity. <b>Graduating with an A- overall (7.16/9)
+                     GPA </b> is a great achievement for me and it shows the consistent hard work I have put into my degree.
                 </p>
+                <h2>Work Experience</h2>
                 <p>
-                    SPEED App: Software Empirical Evidence Database (SPEED) is a web and mobile app that allows users to submit,
-                    moderate, and analyse articles. Created with MongoDB, Node, Next.js, Nest.js (MNNN stack)
+                    I have worked as an <i>IT Service Desk Technician </i> since January 2024 at Hallenstein Glassons Holdings. This entails
+                    troubleshooting of Windows and Mac operating systems, configuring networks, installing point of sale (POS)
+                    peripherals, executing SQL queries on Microsoft SQL Server, and managing all company devices through 
+                    Microsoft Azure and Intune. I have began learning C# under the guidance of our senior development at the company.
+                    This will expand my knowledge in creating the following things:
+                    <ul>
+                        <li>.NET web API backend servers that can be used with a JavaScript web application.</li>
+                        <li>Building Excel Data Dump reports via SQL. </li>
+                        <li>Building simple front end applications with HTML, JavaScript, and Bootstrap CSS that can 
+                            make calls to backend webserver API and then present the JSON data in a table.</li>
+                        <li>Build a client program that can connect an external API and retrieve data and save data to the database.</li>
+                        <li>Build a Model-View-Control web application, with HTML templates (Razor) and database model (Entity framework) with controllers and routing.</li>
+                        <li>Creating Windows Desktop apps in Maui with WinForms</li>
+                    </ul>                    
                 </p>
+                
+                <h2>Software Development Experience</h2>
                 <p>
-                    AchieveIt – Calendar / Goal Web Application: Online calendar to save events, get reminders, set goals, and
-                    customise using JavaScript, React, Firebase, through the Agile Methodology and SDLC.
+                    Talk about personal projects that I have done.
+                </p>
+                <h2>Learnings through University</h2>
+                <p>
+                    Talk about specific papers and R&D project.
+                </p>
+
+                <h2>Languages & Frameworks</h2>
+                <p>
+                    Talk about languages & frameworks.
                 </p>
             </div>
 
