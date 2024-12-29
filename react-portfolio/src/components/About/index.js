@@ -37,10 +37,10 @@ const About = () => {
                 </p>
                 <h2>Work Experience</h2>
                 <p>
-                    I have worked as an <i>IT Service Desk Technician </i> since January 2024 at Hallenstein Glassons Holdings. This entails
+                    I have worked as an <b>IT Service Desk Technician </b> since January 2024 at <b>Hallenstein Glassons Holdings</b>. This entails
                     troubleshooting of Windows and Mac operating systems, configuring networks, installing point of sale (POS)
                     peripherals, executing SQL queries on Microsoft SQL Server, and managing all company devices through 
-                    Microsoft Azure and Intune. I have began learning C# under the guidance of our senior development at the company.
+                    Microsoft Azure and Intune. I have began learning C# under the guidance of our senior software architect at the company.
                     This will expand my knowledge in creating the following things:
                     <ul>
                         <li>.NET web API backend servers that can be used with a JavaScript web application.</li>
@@ -63,9 +63,32 @@ const About = () => {
                 </p>
 
                 <h2>Languages & Frameworks</h2>
-                <p>
-                    Talk about languages & frameworks.
-                </p>
+                <div className='languages-frameworks'>
+                    <div className='languages'>
+                        <b>Languages</b>
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>C#</li>
+                            <li>C</li>
+                            <li>SQL</li>
+                            <li>HTML/CSS</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                    <div className='frameworks'>
+                        <b>Frameworks</b>
+                        <ul>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Angular.js</li>
+                            <li>.NET</li>
+                            <li>Vite.js</li>
+                            <li>Bootstrap</li>     
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <div className='stage-cube-cont'>

@@ -95,3 +95,29 @@
         transform: rotateY(-90deg) rotateX(0deg);
     }
 }
+
+.languages-frameworks {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing between the columns */
+    gap: 20px; /* Adds some spacing between the two lists */
+    margin-top: 10px;
+  
+    .languages,
+    .frameworks {
+      flex: 1; /* Ensures both columns take equal space */
+      b {
+        font-size: 16px; /* Bold the titles */
+        color: #ffd700; /* Optional: Matches your theme color */
+      }
+      ul {
+        list-style-type: none; /* Removes default list styling */
+        padding: 0;
+        li {
+          margin-bottom: 10px; /* Adds space between items */
+          font-size: 14px; /* Adjust font size */
+          color: #ffff;
+        }
+      }
+    }
+  }
+  
