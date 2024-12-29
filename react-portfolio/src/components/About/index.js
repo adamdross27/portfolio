@@ -58,35 +58,58 @@ const About = () => {
                     Talk about personal projects that I have done.
                 </p>
                 <h2>Learnings through University</h2>
-                <p>
-                    Talk about specific papers and R&D project.
-                </p>
+                <p>Here is a list of concepts and methodologies I learnt throughout my university studies:</p>
+                <div className='learnings'>
+                    <ul>
+                        <li>Data Structures & Algorithms</li>
+                        <li>MVC Design Pattern</li>
+                        <li>Software Architecture and Design Patterns</li>
+                        <li>Agile Methodologies</li>
+                        <li>Database Management through normalization and ER diagrams</li>
+                        <li>Version Control through Git/GitHub</li>
+                        <li>Object-Oriented Programming (OOP) principles</li>
+                        <li>IT Project Management through a Research & Development Project with CAITO.ai</li>
+                        <li>Operating Systems</li>
+                        <li>Information Security Management Principles</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Algorithm Design Analysis</li>
+                    </ul>
+                </div>
+
 
                 <h2>Languages & Frameworks</h2>
                 <div className='languages-frameworks'>
                     <div className='languages'>
                         <b>Languages</b>
-                        <ul>
-                            <li>Java</li>
-                            <li>JavaScript</li>
-                            <li>C#</li>
-                            <li>C</li>
-                            <li>SQL</li>
-                            <li>HTML/CSS</li>
-                            <li>PHP</li>
-                        </ul>
+                        <div className='columns'>
+                            <ul>
+                                <li>Java</li>
+                                <li>JavaScript</li>
+                                <li>C#</li>
+                                <li>C</li>
+                            </ul>
+                            <ul>
+                                <li>SQL</li>
+                                <li>HTML/CSS</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className='frameworks'>
                         <b>Frameworks</b>
-                        <ul>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>Angular.js</li>
-                            <li>.NET</li>
-                            <li>Vite.js</li>
-                            <li>Bootstrap</li>     
-                        </ul>
+                        <div className='columns'>
+                            <ul>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>Angular.js</li>
+                            </ul>
+                            <ul>
+                                <li>.NET</li>
+                                <li>Vite.js</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -57,6 +57,13 @@
 .contact-page,
 .portfolio-page {
 
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+    &::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and other WebKit browsers */
+    }
+
         h1 {
             font-size: 53px;
             font-family: 'Coolvetica';

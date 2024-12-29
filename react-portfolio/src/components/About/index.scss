@@ -8,21 +8,25 @@
     margin-top: 10px;
 }
 
-.text-zone p {
-    margin-bottom: 20px;  /* Reduce the space after paragraphs */
-    font-size: 12px;
-}
+.text-zone {
 
-.text-zone h2 {
-    margin-top: 5px;  /* Reduce the space before headings */
-    font-size: 20px;
-    font-family: 'Coolvetica';
-    color: #ffd700
-}
+    width: 55%;
 
+    p {
+        margin-bottom: 20px;  /* Reduce the space after paragraphs */
+        font-size: 12px;
+    }
+
+    h2 {
+        margin-top: 5px;  /* Reduce the space before headings */
+        font-size: 20px;
+        font-family: 'Coolvetica';
+        color: #ffd700
+    }
+}
 
 .stage-cube-cont {
-    width: 50%;
+    width: 35%;
     height: 100%;  /* Full height for the cube container */
     padding-top: 18%;
     margin-left: 0;
@@ -98,26 +102,56 @@
 
 .languages-frameworks {
     display: flex;
-    justify-content: space-between; /* Ensures even spacing between the columns */
-    gap: 20px; /* Adds some spacing between the two lists */
-    margin-top: 10px;
-  
+    justify-content: space-between; /* Ensures the languages and frameworks are spaced out */
+    gap: 20px; /* Adds spacing between the sections */
+    margin-top: 20px;
+
     .languages,
     .frameworks {
-      flex: 1; /* Ensures both columns take equal space */
-      b {
-        font-size: 16px; /* Bold the titles */
-        color: #ffd700; /* Optional: Matches your theme color */
-      }
-      ul {
+        flex: 1; /* Ensures equal space for both sections */
+        text-align: center; /* Centers the title */
+        
+        b {
+            display: block;
+            font-size: 18px;
+            color: #ffd700; /* Optional: Matches your theme color */
+            margin-bottom: 10px;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-around; /* Ensures equal space between the two columns */
+            
+            ul {
+                list-style-type: none; /* Removes default list styling */
+                padding: 0;
+                margin: 0;
+                li {
+                    margin-bottom: 10px; /* Adds space between items */
+                    font-size: 14px; /* Adjust font size */
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+  .learnings {
+    column-count: 3; /* Splits content into three columns */
+    column-gap: 20px; /* Adds spacing between the columns */
+    margin-top: 10px;
+
+    ul {
         list-style-type: none; /* Removes default list styling */
         padding: 0;
+        margin: 0;
+
         li {
-          margin-bottom: 10px; /* Adds space between items */
-          font-size: 14px; /* Adjust font size */
-          color: #ffff;
+            margin-bottom: 10px; /* Adds space between items */
+            font-size: 14px; /* Adjust font size */
+            color: #ffff;
         }
-      }
     }
-  }
-  
+}
+

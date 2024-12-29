@@ -1,7 +1,7 @@
 @import "~loaders.css/src/animations/pacman.scss";
 
 .contact-form {
-    width: 100%;
+    width: 70%;
     margin-top: 20px;
 
     ul {
@@ -82,8 +82,8 @@
 .info-map {
     position: absolute;
     background-color: #000;
-    top: 20px;
-    right: 20px;
+    top: 8px;
+    right: 15px;
     z-index: 999999;
     width: 267px;
     padding: 20px;
@@ -106,8 +106,9 @@
 .map-wrap {
     background: rgba(8,253,216,0.1);
     float: right;
-    width: 53%;
+    width: 50%;
     height: 100%;
+    padding-right: 0.5%;
 }
 
 .leaflet-container {
