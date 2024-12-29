@@ -151,7 +151,6 @@
         }
     }
 }
-
 .learnings {
     column-count: 3; /* Divide into 3 columns */
     column-gap: 35px; /* Add spacing between columns */
@@ -168,28 +167,27 @@
             color: #fff; /* Default text color */
             position: relative;
             padding-left: 30px; /* Increase left padding for bullet scaling */
-            transition: transform 0.3s ease, color 0.3s ease; /* Smooth animations for hover and leave */
-
-            &:before {
-                content: '\2022'; /* Unicode bullet */
-                position: absolute;
-                left: 0; /* Align bullet to the left */
-                top: 50%; /* Vertically center bullet */
-                transform: translateY(-50%) scale(1); /* Default bullet size */
-                font-size: 20px; /* Bullet size */
-                color: #ffd700; /* Golden bullet color by default */
-                transition: transform 0.3s ease, color 0.3s ease; /* Smooth scaling and color transition */
-            }
-
+        
             &:hover {
                 color: #ffd700; /* Highlight text on hover */
                 transform: scale(1.05); /* Slight zoom for text */
             }
-
+        
+            &:before {
+                content: '\2022'; /* Unicode bullet */
+                position: absolute;
+                left: 2.5%; /* Align bullet to the left */
+                top: 50%; /* Vertically center bullet */
+                transform: translateY(-50%); /* Center adjustment */
+                font-size: 20px; /* Bullet size */
+                color: #ffd700; /* Golden bullet */
+                transition: transform 0.3s ease, color 0.3s ease; /* Smooth animations */
+            }
+        
             &:hover::before {
                 transform: translateY(-50%) scale(1.3); /* Scale bullet on hover */
-                color: #ffd700; /* Keep hover color golden */
             }
         }
     }
 }
+

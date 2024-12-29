@@ -19,7 +19,7 @@ const Logo = () => {
         {
           opacity: 1, 
           scale: 1,    
-          rotation: 30, 
+          rotation: 10, 
           y: 0, // End position
           duration: 3, 
           ease: 'bounce.out', // Bounce effect for the Y-axis
