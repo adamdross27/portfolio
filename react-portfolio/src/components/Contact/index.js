@@ -70,7 +70,7 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>This is how to contact me!</p>
+                    <p>Feel free to fill out the form below to get in touch with me!</p>
                     <div className="contact-form">
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
@@ -115,7 +115,7 @@ const Contact = () => {
                 <div className='info-map'>
                     Adam Ross,
                     <br />
-                    Auckland, <br />
+                    Auckland <br />
                     New Zealand <br />
                     <span>adamross387@gmail.com</span>
                 </div>
