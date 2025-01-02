@@ -13,12 +13,12 @@
     width: 55%;
 
     p {
-        margin-bottom: 20px;  /* Reduce the space after paragraphs */
+        margin-bottom: 8px;  /* Reduce the space after paragraphs */
         font-size: 14px;
     }
 
     h2 {
-        margin-top: 5px;  /* Reduce the space before headings */
+        margin-top: 0px;  /* Reduce the space before headings */
         font-size: 24px;
         font-family: 'Coolvetica';
         color: #ffd700
@@ -151,6 +151,7 @@
         }
     }
 }
+
 .learnings {
     column-count: 3; /* Divide into 3 columns */
     column-gap: 35px; /* Add spacing between columns */
