@@ -68,7 +68,7 @@ const About = () => {
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={'Software Development Experience'.split('')}
-                            idx={15}
+                            idx={3}
                         />
                     </h2>
                     <p>
