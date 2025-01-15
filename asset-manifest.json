@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.11bd0037.css",
-    "main.js": "/portfolio/static/js/main.93fce433.js",
+    "main.css": "/portfolio/static/css/main.cb468ce0.css",
+    "main.js": "/portfolio/static/js/main.de194298.js",
     "static/media/logo-s.png": "/portfolio/static/media/logo-s.070b79a38714fac94fa6.png",
     "static/media/helvetica-neu.ttf": "/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio/index.html",
-    "main.11bd0037.css.map": "/portfolio/static/css/main.11bd0037.css.map",
-    "main.93fce433.js.map": "/portfolio/static/js/main.93fce433.js.map"
+    "main.cb468ce0.css.map": "/portfolio/static/css/main.cb468ce0.css.map",
+    "main.de194298.js.map": "/portfolio/static/js/main.de194298.js.map"
   },
   "entrypoints": [
-    "static/css/main.11bd0037.css",
-    "static/js/main.93fce433.js"
+    "static/css/main.cb468ce0.css",
+    "static/js/main.de194298.js"
   ]
 }
