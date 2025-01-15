@@ -15,6 +15,14 @@
             "url": "https://speedfrontend.vercel.app/"
         },
         {
+            "cover": "/portfolio/5/library.png",
+            "title": "Online Library App", 
+            "subtitle": "React.js, SQL, Express.js, Node.js",
+            "description": "This is a simple CRUD app that allows users to manage books in a library. It leverages a MySQL database and provides hands-on practice with SQL API calls in a full-stack environment!",
+            "url": "https://github.com/adamdross27/library"
+        },
+
+        {
             "cover": "/portfolio/3/todo.png",
             "title": "To-Do App", 
             "subtitle": "JavaScript, HTML, CSS ",
